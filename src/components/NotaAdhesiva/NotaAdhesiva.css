@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+#nota{
+    flex-direction: column;
+}
+
+#pincho {
+    background-image: url('../../assets/pinchoRojo.png');
+    background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    height: 30%; /* Ajusta el alto del contenedor */
+    width: 30%; /* Ajusta el ancho del contenedor */
+    transform: translate(30px,-70px);
+}
+
+#texto {
+    font-family: 'Caveat', sans-serif;
+    font-size: 30px;
+}
