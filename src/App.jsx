@@ -13,6 +13,14 @@ function App() {
                 <NotaAdhesiva texto={"Tarea#1"}>
                     
                 </NotaAdhesiva>
+
+                <NotaAdhesiva texto={"Tarea#1"}>
+                    
+                </NotaAdhesiva>
+                <NotaAdhesiva texto={"Tarea#1"}>
+                    
+                </NotaAdhesiva>
+              
             </Pizarra>
         </Pared>
     </div>

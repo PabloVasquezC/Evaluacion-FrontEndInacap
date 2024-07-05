@@ -2,15 +2,37 @@
 
 #nota{
     flex-direction: column;
+    transform: rotate();
+    margin: 20px;
+    
+
+    #pinchoYCloseButton {
+        display: flex;
+        width: 80%;
+        transform: translateY(-50px);
+    }
+
+    #eliminar_nota {
+        background-color: transparent;
+        font-family: 'Caveat', sans-serif;
+        font-size: 30px;
+        border-radius: 50%;
+
+        :hover {
+            background-color: red;
+        }
+    }
 }
+
+
 
 #pincho {
     background-image: url('../../assets/pinchoRojo.png');
     background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
     background-position: center; /* Centra la imagen en el contenedor */
-    height: 30%; /* Ajusta el alto del contenedor */
-    width: 30%; /* Ajusta el ancho del contenedor */
-    transform: translate(30px,-70px);
+    height: 50%; /* Ajusta el alto del contenedor */
+    width: 60%; /* Ajusta el ancho del contenedor */
+    
 }
 
 #texto {

@@ -8,8 +8,11 @@ function NotaAdhesiva({texto}) {
     <>
     
     <div id="nota" className='d-flex justify-content-center align-items-center'>
-        <div id='pincho'></div>
-        <p id='texto'>{texto}</p>
+          <div id="pinchoYCloseButton">
+          <div id='pincho'></div>
+          <button id='eliminar_nota'>X</button>
+          </div>
+          <p id='texto'>{texto}</p>
     </div>
     </>
   )
