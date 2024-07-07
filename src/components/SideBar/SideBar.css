@@ -1,6 +1,39 @@
 #hamburgesa {
-    position: absolute;
-    left: 20px;
-    top: 20px;
+    
     cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+
+    
+}
+
+#button-hamburgesa {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: transparent;
+}
+
+#side-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: #222;
+    z-index: 10;
+}
+
+
+#side-bar-header {
+    /* background-color: white; */
+}
+
+#close-side-bar-button {
+    font-size: 1.5rem;
+    background-color: #2322;
+    color: white;
+    position: absolute;
+    right: 40px;
+    top: 5px;
 }
